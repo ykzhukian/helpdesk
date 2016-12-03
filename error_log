@@ -1,0 +1,15 @@
+[31-Jan-2016 04:10:32 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 30
+[31-Jan-2016 04:10:32 America/Denver] PHP Warning:  mysql_select_db(): Access denied for user 'kianzykc'@'localhost' (using password: NO) in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 31
+[31-Jan-2016 04:10:32 America/Denver] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 31
+[31-Jan-2016 04:10:32 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'kianzykc'@'localhost' (using password: NO) in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 58
+[31-Jan-2016 04:10:32 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 58
+[31-Jan-2016 04:10:32 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42
+[31-Jan-2016 04:14:37 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42
+[31-Jan-2016 04:21:59 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42
+[31-Jan-2016 04:28:11 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42
+[31-Jan-2016 04:32:27 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42
+[29-Feb-2016 23:23:37 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42
+[29-Feb-2016 23:24:02 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 89
+[29-Feb-2016 23:24:02 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42
+[01-May-2016 22:10:40 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42
+[01-May-2016 22:10:43 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home2/kianzykc/public_html/helpdesk/class/DB.class.php on line 42

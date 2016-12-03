@@ -1,0 +1,1386 @@
+/***************************************universal***********************************************/
+*{
+    margin: 0;
+}
+
+html.login-page { 
+  background: url(../images/bg.png) no-repeat center; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 1440px;
+  background-color: #efece3;
+}
+
+html { 
+	background-color: #efece3;
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+ 
+
+/*set the background image, font, color (where the image can't cover)*/
+body {
+    margin: 0 auto;
+    width: 100%;
+    font: 13px/22px chaparral, serif;
+    /*font: 12px/30px "Chaparral Pro", serif;*/
+    background-size: 1024px auto;
+    padding: 0;
+}
+
+@font-face { 
+	font-family: chaparral; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: url('../font/ChaparralPro-Regular.otf'); 
+} 
+
+/*---------------------------------- Main Pages ----------------------------------*/
+#main-body {
+	width: 40%;
+	margin-top: 150px;
+	margin-left: 150px;
+	float: left;
+	text-align: center;
+}
+
+#contact-body, #about-body{
+	width: 80%;
+	margin-top: 200px;
+	margin-left: 150px;
+	float: left;
+	text-align: center;
+	font-size: 14pt;
+}
+
+#main-logo{
+	float: left;
+	left:0;
+	position:absolute;
+}
+
+#header-main{
+	width: 1024px;
+	margin: auto;
+	height: 50px;
+}
+
+.header-links{
+	margin-top: 20px;
+	font-size: 15pt;
+	float: right;
+	margin-left: 40px;
+}
+
+.header-links a{
+	text-decoration: none;
+	color: #424141;
+}
+
+.header-links a:hover{
+	text-decoration: none;
+	color: #000;
+	text-shadow: 1px 1px 20px;
+}
+
+
+/*---------------------------------- Main Pages ----------------------------------*/
+
+
+
+
+
+/*---------------------------------- Login Page ----------------------------------*/
+
+.login{
+	border-radius: 6px;
+	background-color: #FFF;
+	width: 250px;
+	height: 35px;
+	border: 1px solid #bcbaba;
+	margin: 10px 0;
+	font-size: 12pt;
+}
+
+#login_error{
+	font-size: 12pt;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	color: red;
+}
+
+#google_translate_element{
+	float: right;
+}
+
+.goog-te-gadget-simple{
+	border: none;
+	background-color: #000;
+	color: #FFF;
+}
+
+#powered{
+	margin-top: 20px; 
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+	font-size: 10pt;
+	opacity: 0.3;
+	text-align: center;
+}
+
+#submit{
+	color: #FFF;
+	width: 110px;
+	margin-left: 50px;
+	background-color: #035B8C;
+	opacity:0.8;
+}
+
+#submit:hover {
+    opacity:1;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.4s;
+}
+
+#register{
+	color: #FFF;
+	border-radius: 6px;
+	width: 90px;
+	margin-top: 10px;
+	float: left;
+	opacity:0.8;
+	background-color: #035B8C;
+}
+
+#register:hover {
+    opacity:1;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.4s;
+}
+
+#home-login{
+	margin-top: 200px;
+	margin: auto auto;
+	width: 250px; 
+}
+
+#content-login {
+    margin-right: 180px;
+    width: 400px;
+    padding-top: 150px;
+    float: right;
+}
+
+#login_form{
+	width: 300px;
+	height: 220px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#logo{
+	margin-left: 45px;
+}
+
+/*************************************** header ********************************/
+header {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    height: 60px;
+}
+
+#header{
+	width: 1024px;
+	margin: auto;
+	height: 50px;
+}
+
+#header-logo{
+	float: left;
+}
+
+.header{
+	margin-top: 20px;
+	font-size: 15pt;
+	float: right;
+	margin-left: 40px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #424141;
+}
+
+.header a:hover{
+	text-decoration: none;
+	color: #000;
+	text-shadow: 1px 1px 20px;
+}
+
+#already{
+	width: 200px;
+	float: right;
+	padding-top: 12px;
+	margin-left: 100px;
+	font-size: 12pt;
+}
+
+#already a{
+	color: #424141;
+}
+
+#sign_out{
+	width: 100px;
+	float: right;
+	padding-top: 20px;
+	margin-left: 50px;
+	font-size: 12pt;
+}
+
+#sign_out a{
+	text-decoration: none;
+	color: #5a5757;
+}
+
+#sign_out a:hover{
+	text-decoration: none;
+	color: #000;
+	text-shadow: 1px 1px 20px;
+}
+
+
+/*************************************** registration-volunteer ********************************/
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    padding-top: 90px;
+}
+
+#registration{
+	width: 600px;
+	margin-left: 400px;
+	font-size: 15pt;
+}
+
+#registration input{
+	width: 200px;
+	height: 30px;
+	/*font: 12pt "Chaparral Pro", serif;*/
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.lastname{
+	margin-left: 125px;
+}
+
+.confirm_password{
+	margin-left: 140px;
+}
+
+#submit_vol{
+	border: none;
+	width: 100px;
+	margin-top: 20px;
+	opacity: 0.8;
+}
+
+#submit_vol:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#registerAs{
+	font-size: 18pt;
+	width: 300px;
+	height: 50px;
+	color: #5a5757;
+}
+
+#vol_pic{
+	margin-top: 150px;
+	margin-left: 20px;
+	float: left;
+}
+
+#emailUsed, #passwordError{
+	color: red;
+}
+
+#passwordError{
+	visibility: hidden;
+}
+
+
+/*************************************** registration-client ********************************/
+textarea{
+	resize:none;
+	/*font: 12pt "Chaparral Pro", serif;*/
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+}
+
+#checkbox input{
+	width: 15px;
+	float: left;
+	height: 20px;
+	margin-top: 3px;
+	margin-right: 3px;
+}
+
+.checkbox_span{
+	float: left;
+	margin-right: 20px;
+	font-size: 15pt;
+}
+
+#sun{
+	float: none;
+}
+
+
+/**************************************** status *****************************************/
+.firstname_edit, .lastname_edit{
+	margin-right: 120px;
+	font-size: 15pt;
+}
+
+.contact_number, .region_edit{
+	font-size: 15pt;
+}
+
+.lang_edit{
+	margin-left: 45px;
+	font-size: 15pt;
+}
+
+#language_edit, .firstname_edit_input, .lastname_edit_input, .service_edit, .contact_number_edit{
+	margin-top: 5px;
+	width: 200px;
+	height: 30px;
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+.service_edit{
+	float: left;
+	width: 150px;
+	margin-right: 12px; 
+}
+
+#language_edit{
+	width: 150px;
+	float: left;
+	margin-right: 12px; 
+
+}
+
+.yes{
+	text-decoration: none;
+	font-size: 16pt;
+	color: #000;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+
+#title{
+	margin: auto;
+	margin-bottom: 10px;
+	font-size: 18pt;
+	width: 300px;
+	height: 30px;
+	color: #5a5757;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#status, #request{
+	width: 600px;
+	margin: auto;
+	font-size: 15pt;
+}
+
+#edit_job_page{
+	width: 520px;
+	margin: auto;
+	font-size: 15pt;
+}
+
+.request{
+	width: 433px;
+	margin-top: 20px;
+	text-align: center;
+	float: left;
+}
+
+#request_number{
+	font-size: 15pt;
+	margin: auto;
+	text-align: center;
+	width: 500px;
+}
+
+.status{
+	width: 250px;
+	height: 30px;
+	background-color: #bcbaba;
+	margin-left: 50px;
+	margin-top: 30px;
+	padding-top: 8px;
+	text-align: center;
+	border-radius: 5px;
+	float: left;
+}
+
+.done{
+	float: left;
+	margin-left: 50px;
+	margin-top: 26px;
+}
+
+.delete{
+	margin-left: 75px;
+	float: left;
+	margin-top: 20px;
+}
+.delete a, .assign_to a{
+	text-decoration: none;
+	color: #ba2b38;
+}
+.assign_to{
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+#job_list{
+	width: 800px;
+	padding-top: 20px;
+	padding-bottom: 50px; 
+	border: 2px solid #32779e;
+	margin: 20px auto;
+	border-radius: 6px;
+}
+
+
+#job_list_table{
+	margin: auto;
+	border-collapse: collapse;
+
+}
+
+#job_list_table tr {
+	border-bottom: 1px solid #ccc;
+
+}
+
+.job_pool_hover:hover {
+  	background: lightgrey;
+}
+
+.job_list_title{
+	margin: 15px 15px;
+	font-size: 16pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+.job_list_row{
+	margin: 15px 15px;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.job_list_detail{
+	height: 100px;
+	word-wrap: break-word; 
+}
+
+.detail_break{
+	word-wrap: break-word; 
+	width: 190px;
+	padding: 10px;
+}
+
+.request_div{
+	width: 430px;
+	height: 460px;
+	border: 2px solid #32779e;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 40px;
+	font-size: 15pt;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	overflow-y: auto;
+}
+
+#handled_card{
+	border-radius: 5px;
+}
+
+#handled_card:hover{
+	cursor:pointer;
+	color: #32779e;
+}
+
+.detail_card_table{
+	margin: 70px auto;
+	font-size: 16pt;
+	width: 400px;
+	text-align: center;
+}
+
+.card_ok{
+	width: 300px;
+	margin: 20px auto;
+	text-align: center;
+	color: #035B8C;
+}
+
+.card_ok:hover{
+	cursor:pointer;
+	color: #32779e;
+}
+
+.waiting_still{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+/**************************************** request *****************************************/
+#ok_service{
+	margin-left: 400px;
+	margin-top: 10px;
+	border: none;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 40px;
+	height: 25px;
+	font-size: 10pt;
+	opacity: 0.8;
+	text-align: center;
+	padding-top: 7px;
+}
+
+#add_service_ok_a{
+	text-decoration: none;
+}
+
+
+#request label, input{
+	margin-top: 15px;
+	
+}
+
+#add_service_label{
+	font-size: 12pt;
+	margin-left: 60px;
+}
+
+#add_service_button{
+	width: 200px;
+	font-size: 12pt;
+	text-align: center;
+	margin: 10px auto;
+	border: 2px solid #bcbaba;
+	border-radius: 5px;
+}
+
+#add_service_button a{
+	text-decoration: none;
+	color: #000;
+}
+
+#request #company,#language,#sex_request,#region,#contact_number,#skill_request,#salary, #day, #datepicker, .datepicker{
+	width: 200px;
+	height: 30px;
+	/*font: 12pt "Chaparral Pro", serif;*/
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+}
+
+#gender_request, .skill_request{
+	margin-left: 5px;
+}
+
+#submit_request{
+	border: none;
+	background-color: #035B8C;
+	color: #FFF;
+	width: 100px;
+	height: 30px;
+	font-size: 12pt;
+	opacity: 0.8;
+}
+
+#cancel_request{
+	margin-left: 50px;
+	border: none;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 100px;
+	height: 30px;
+	font-size: 12pt;
+	opacity: 0.8;
+}
+
+#cancel_request:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#submit_request:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#name{
+	width: 150px;
+	font-size: 10pt;
+	border: 2px solid #bcbaba;
+	margin-left: 15px;
+}
+
+#submit_name{
+	margin-left: 10px;
+	border: none;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 40px;
+	height: 30px;
+	font-size: 10pt;
+	opacity: 0.8;
+}
+
+#submit_name:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#edit_job_card{
+	border: 2px solid #035B8C;
+	border-radius: 5px;
+	width: 500px;
+	margin: auto;
+	padding: 40px;
+	font-size: 15pt;
+}
+
+#add_service{
+	margin-right: 105px;
+	margin-top: 14px;
+	padding-top: 4px;
+	
+}
+
+#add_pluse{
+	text-decoration: none;
+}
+
+#add_service:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#add_service_plus{
+	border: none;
+	padding-top: 3px;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 35px;
+	height: 27px;
+	font-size: 25pt;
+	opacity: 0.8;
+	text-align: center;
+	float: right;
+	margin-right: 110px;
+	margin-top: 15px;
+}
+
+#add_language_plus{
+	border: none;
+	padding-top: 3px;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 35px;
+	height: 27px;
+	font-size: 25pt;
+	opacity: 0.8;
+	text-align: center;
+	float: right;
+	margin-right: 270px;
+}
+
+#add_service_edit{
+	margin-top: 6px;
+	border: none;
+	padding-top: 3px;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 35px;
+	height: 25px;
+	font-size: 25pt;
+	opacity: 0.8;
+	text-align: center;
+	float: left;
+	margin-right: 35px;
+}
+
+.successfully_signup{
+	color: #5a5757;
+	text-decoration: none;
+	font-size: 18pt;
+}
+.successfully_signup a{
+	color: #5a5757;
+	font-size: 18pt;
+}
+
+#new_service_name{
+	margin-left: 10px;
+	width: 150px;
+	height: 25px;
+	/*font: 12pt "Chaparral Pro", serif;*/
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+}
+
+#new_service_submit{
+	margin-left: 10px;
+	border: none;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 40px;
+	height: 30px;
+	font-size: 10pt;
+	opacity: 0.8;
+}
+
+#new_service_submit:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#new_language_submit{
+	margin-left: 10px;
+	border: none;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 40px;
+	height: 30px;
+	font-size: 10pt;
+	opacity: 0.8;
+}
+
+#new_language_submit:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#request_form{
+	height: 500px;
+}
+
+#request_form #language, .language, #region, .region, #contact_number, .contact_number, .day, #day, .date, #date, .info, #info, #info1, #info2, #info3{
+	margin-bottom: 15px;
+}
+
+.contact_number_edit_label{
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+
+#request_form #username_re, #lastname_re, #firstname_re, #username_vol, #service_re{
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+#request_form_vol #username_re_vol, #firstname_re_vol, #lastname_re_vol{
+	width: 200px;
+	height: 30px;
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+}
+
+#request_form_vol .lastname{
+	margin-left: 10px;
+}
+
+.error_red{
+	color: #c43a46;
+	margin-left: 100px;
+}
+
+.error_select{
+	color: #c43a46;
+	font-size: 12pt;
+	text-align: center;
+}
+
+
+
+/**************************************** job pool *****************************************/
+#assign_confirm_button{
+	margin-left: 350px;
+}
+
+.header_search{
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
+.search{
+	height: 25px;
+	width: 400px;
+	border-radius: 5px;
+	border: 2px solid #bcbaba;
+	margin-left: 20px;
+}
+
+.search_button{
+	color: #FFF;
+	width: 70px;
+	height: 23px;
+	margin-left: 10px;
+	background-color: #035B8C;
+	opacity:0.8;
+	border: none;
+}
+
+.search_button:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.result_title_row{
+	font-size: 14pt;
+	width: 520px;
+	height: 30px;
+	margin-bottom: 15px;
+}
+
+.result_title{
+	width: 130px;
+	float: left;
+	height: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.result_row{
+	width:130px;
+	float:left;
+	text-align: center;
+	font-size:12pt;
+
+}
+
+
+.result_row_search{
+	padding-top: 10px;
+	width:520px;
+	border-bottom: 1px solid #aaa;
+	height:50px;
+}
+
+.no_result{
+	text-align: center;
+	font-size: 13pt;
+	border-bottom: 1px solid #aaa;
+}
+
+
+.result_row_search:hover{
+	background-color: lightgrey;
+}
+
+/*
+.search_result{
+	margin-top: 15px;
+}
+
+.search_result td{
+	width: 110px;
+}
+
+.search_result tr{
+	height: 35px;
+	border-bottom: 1px solid #ccc;
+}
+
+*/
+
+.search_language, .search_region{
+	height: 25px;
+	width: 110px;
+	border: 1px solid #bcbaba;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.label_search{
+	margin-left: 30px;
+	font-size: 11pt;
+}
+
+.job_pool{
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+.invisible{
+	display: none;
+}
+
+.left{
+	width: 200px;
+	margin-top: 20px;
+	float: left;
+	text-align: right;
+}
+
+.detail_row{
+	background-color: #f2eeee;
+}
+
+#detail_jobpool{
+	border-radius: 5px;
+	font-size: 13pt;
+	padding: 5px;
+	width: 360px;
+	/*margin-top: 5px;*/
+	float: left;
+	margin-left: 36px;
+	height: 100px;
+	margin-bottom: 10px;
+	border: 1px solid #bcbaba;
+}
+
+.job_card td{
+	font-size: 15pt;
+	height: 10px;
+}
+
+.take{
+	/*height: 40px;*/
+	margin: 15px 15px;
+	text-align: center;
+	font-style: italic;
+}
+
+.take a, .take a{
+	text-decoration: none;
+	color: #ba2b38;
+}
+
+#footer{
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	margin-bottom: 20px;
+}
+
+#sorted_by{
+	margin: auto;
+	width: 500px;
+	text-align: center;	
+}
+
+#language_label, #region_label{
+	font-size: 12pt;
+}
+
+#by_language, #by_region{
+	width: 100px;
+	height: 20px;
+	border: 1px solid #bcbaba;
+}
+
+#card_submit{
+	margin-left: 10px;
+	border: none;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 30px;
+	height: 25px;
+	font-size: 8pt;
+	opacity: 0.8;
+
+}
+
+#no_result{
+	width: 100px;
+	margin: 30px auto;
+}
+
+#take_failed{
+	color: red;
+	width: 300px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.quickFlip{
+	width: 430px;
+	height: 460px;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 40px;
+	font-size: 15pt;
+}
+
+.job_assign_submit{
+	margin-left: 10px;
+	border: none;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 30px;
+	height: 25px;
+	font-size: 8pt;
+	opacity: 0.8;
+}
+
+.job_assign_select{
+	width: 200px;
+	height: 30px;
+	font-size: 12pt;
+	margin-left: 150px;
+}
+/**************************************** quotes *****************************************/
+#quote_list{
+	width: 900px;
+	padding-top: 10px;
+	padding-bottom: 50px; 
+	border: 2px solid #32779e;
+	margin: 30px auto;
+	border-radius: 6px;
+}
+
+.quote_list_title{
+	width: 100px;
+	margin: 15px 22px;
+	font-size: 13pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+#quote_list_table{
+	border-collapse: collapse;
+}
+
+#quote_list_table tr{
+	border-bottom: 1px solid #ccc;
+  	
+}
+
+#quote_edit1, #quote_edit2, #quote_edit3{
+	margin-top: 0;
+	color: #FFF;
+	width: 80px;
+	height: 23px;
+	margin-right: 30px;
+	background-color: #035B8C;
+	opacity:0.8;
+	border: none;
+	float: right;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 7px;
+
+}
+
+.quote_form_center{
+	text-align: center;
+	height: 70px;
+
+}
+
+.quote_form_center:hover{
+	text-align: center;
+	height: 70px;
+	background: lightgrey;
+}
+
+.quote_form{
+	margin-top: 20px;
+}
+
+.quote_form_row{
+	background-color: #f2eeee;
+}
+
+.quote_status{
+	margin-left: 10px;
+}
+
+.quotes{
+	width: 530px;
+	height: 500px;
+	border: 2px solid #32779e;
+	font-size: 12pt;
+}
+
+.quotes input{
+	width: 200px;
+	height: 30px;
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+	margin-right: 20px;
+}
+
+#install_label{
+	float: left;
+	margin-top: 5px;
+	margin-left: 55px;
+}
+
+#install1, #install2, #install3, #running1, #running2, #running3{
+	margin-top: 0;
+	margin-left: 5px;
+	border: 2px solid #bcbaba;
+	height: 25px;
+	width: 100px;
+}
+
+.quote_select{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 180px;
+	font-size: 12pt;
+}
+
+.quote_select_pop{
+	width: 180px;
+	font-size: 12pt;
+}
+
+#install_pop, #running_pop{
+	margin-top: 10px;
+	margin-left: 5px;
+	border: 2px solid #bcbaba;
+	height: 25px;
+	width: 120px;
+}
+
+#quotes{
+	width: 600px;
+	margin: auto;
+	font-size: 9pt;
+}
+
+#title a {
+	text-decoration: none;
+	color: #000;
+}
+
+#preferred1, #preferred2, #preferred3, .preferred_quote{
+	margin: 0;
+}
+
+#date_quote{
+	width: 300px;
+	float: left;
+	margin-top: 20px;
+}
+
+.service_provider_info{
+	width: 250px;
+	height: 20px;
+	float: left;
+}
+
+#preferred{
+	width: 50px;
+}
+
+.preferred_quote{
+	margin-top: 4px;
+}
+
+#quote_update1, #quote_update2, #quote_update3{
+	margin-top: 0;
+	color: #FFF;
+	width: 80px;
+	height: 30px;
+	margin-right: 30px;
+	background-color: #035B8C;
+	opacity:0.8;
+	border: none;
+	float: right;
+}
+
+#quote_send1, #quote_send2, #quote_send3{
+	margin-top: 0;
+	color: #FFF;
+	width: 100px;
+	height: 23px;
+	margin-right: 90px;
+	background-color: #035B8C;
+	opacity:0.8;
+	border: none;
+	float: right;
+	text-align: center;
+	padding-top: 7px;
+	cursor: pointer;
+
+}
+
+.email_quotes{
+	margin-top: 15px;
+}
+
+#quote_update1:hover, #quote_update2:hover, #quote_update3:hover {
+    opacity:1;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.4s;
+}
+
+#quote_form_new{
+	font-size: 12pt;
+}
+
+#quote_ok{
+	margin-top: 0;
+	color: #FFF;
+	width: 80px;
+	margin-left: 20px;
+	background-color: #035B8C;
+	opacity:0.8;
+	border: none;
+}
+#quote_ok:hover {
+    opacity:1;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.4s;
+}
+
+#provider_add{
+	margin-left: 70px;
+	border: none;
+	background-color: #c43a46;
+	color: #FFF;
+	width: 40px;
+	height: 30px;
+	font-size: 10pt;
+	opacity: 0.8;
+}
+
+#provider_add:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+#provider_name{
+	width: 200px;
+	height: 25px;
+	/*font: 12pt "Chaparral Pro", serif;*/
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+	margin-bottom: 10px;
+}
+
+.send_title_h{
+	text-align: center;
+}
+
+.send_title{
+	width: 200px;
+	height: 25px;
+	/*font: 12pt "Chaparral Pro", serif;*/
+	font: 12pt chaparral, serif;
+	border: 2px solid #bcbaba;
+	margin-left: 5px;
+}
+
+.send_quote_submit{
+	margin-top: 0;
+	color: #FFF;
+	width: 120px;
+	height: 30px;
+	margin-right: 40px;
+	background-color: #035B8C;
+	opacity:0.8;
+	border: none;
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.accept_quote{
+	margin-top: 0;
+	color: #FFF;
+	width: 80px;
+	height: 23px;
+	margin-right: 40px;
+	background-color: #035B8C;
+	opacity:0.8;
+	border: none;
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+	padding-top: 7px;
+	text-align: center;
+}
+
+.check_quote{
+	text-decoration: none;
+	color: #035B8C;
+}
+
+.quote_check{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 13pt;
+
+}
+
+.quote_info{
+	margin-top: 10px;
+	width: 500px;
+	height: 150px;
+	margin: auto;
+	padding: 6px;
+	border: 2px solid #bcbaba;
+}
+
+.declined{
+	color:grey;
+	text-align: center;
+	height: 70px;
+	text-decoration: line-through;
+}
